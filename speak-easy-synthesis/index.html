@@ -68,9 +68,9 @@
     
         function onLoad() {
           var parsedUrl = new URL(window.location.toString());
-          logText("Title shared: " + parsedUrl.searchParams.get("title"));
-          logText("Text shared: " + parsedUrl.searchParams.get("text"));
-          logText("URL shared: " + parsedUrl.searchParams.get("url"));
+          // logText("Title shared: " + parsedUrl.searchParams.get("title"));
+          // logText("Text shared: " + parsedUrl.searchParams.get("text"));
+          // logText("URL shared: " + parsedUrl.searchParams.get("url"));
 
           document.getElementById("textInput").innerHTML = parsedUrl.searchParams.get("text");
 
