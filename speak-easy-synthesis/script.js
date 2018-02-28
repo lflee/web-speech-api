@@ -66,7 +66,7 @@ inputForm.onsubmit = function(event) {
 
   speak();
 
-  inputTxt.blur();
+  // inputTxt.blur();
 }
 
 pitch.onchange = function() {
